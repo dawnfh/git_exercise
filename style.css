@@ -1,21 +1,46 @@
 body {}
 
-header {}
+header {
+	background-color: #fc55af;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
 
 nav {}
 
 ul {}
 
-li {}
+li {
+	list-style: none;
+}
 
-section {}
+section {
+	float: left;
+  margin: 0 1.5%;
+  width: 63%;
+  background-color: #2ba8d8;
+  -moz-border-radius: 15px;
+	border-radius: 15px;
+  
+}
 
 p {}
 
 .article {}
 
-aside {}
+aside {
+	float: right;
+  margin: 0 1.5%;
+  width: 30%;
+  background-color: #ce3f9d;
+	border-radius: 15px;
 
-footer {}
+}
+
+footer {
+	background-color: #fc55af;
+	background-color: #ce3f9d;
+	border-radius: 15px;
+}
 
 
